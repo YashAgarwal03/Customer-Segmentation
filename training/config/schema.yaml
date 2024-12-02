@@ -1,0 +1,9 @@
+COLUMNS:
+  CustomerID: int64 
+  Gender: object
+  Age: int64 
+  Annual Income (k$): int64 
+  Spending Score (1-100):  int64 
+  Cluster: int64  # This is the target column created after clustering
+TARGET COLUMN:
+  target_column_name: Cluster
